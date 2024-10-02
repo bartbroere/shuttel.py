@@ -1,0 +1,22 @@
+name: "Klimaatadministratie met shuttel.py"
+
+on:
+  schedule:
+    # 16:16 on Saturday
+    - cron: '16 16 * * 6'
+    # at the end of each year
+    - cron: '22 22 31 12 *'
+  workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+        - uses: actions/checkout@v2
+        - name: Set up Python 3.11
+          uses: actions/setup-python@v2
+          with:
+              python-version: "3.11"
+        - name: Run script with secrets as arguments
+          run: python shittel.py ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }} ${{ secrets.STANDPLAATS }}
