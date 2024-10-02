@@ -23,7 +23,7 @@ Dit gebeurt standaard iedere zaterdag, en op 31 december als je 's avonds aan de
 
 Om de template the gebruiken, klik rechtsboven op de knop "Use this template".
 
-<img width="165" alt="Use this template" src="https://github.com/user-attachments/assets/7e425b5b-4085-4887-a1b3-2e3452560243">
+[<img width="165" alt="Use this template" src="https://github.com/user-attachments/assets/7e425b5b-4085-4887-a1b3-2e3452560243">](https://github.com/new?template_name=shuttel.py&template_owner=bartbroere)
 
 Stel daarna de volgende drie secrets in in de instellingen van je repository, `USERNAME`, `PASSWORD`, `STANDPLAATS`:
 
