@@ -20,7 +20,14 @@ Bijdragen aan openstaande issues al helemaal.
 Deze repository is een template.
 Als je hem gebruikt om een nieuwe repository te maken kun je hem direct draaien als Github Action.
 Dit gebeurt standaard iedere zaterdag, en op 31 december als je 's avonds aan de oliebollen zit zodat het jaar netjes wordt afgesloten.
-Hiervoor moet je drie secrets toevoegen aan je repository, namelijk `USERNAME`, `PASSWORD` en `STANDPLAATS`.
+
+Om de template the gebruiken, klik rechtsboven op de knop "Use this template".
+
+<img width="165" alt="Use this template" src="https://github.com/user-attachments/assets/7e425b5b-4085-4887-a1b3-2e3452560243">
+
+Stel daarna de volgende drie secrets in in de instellingen van je repository, `USERNAME`, `PASSWORD`, `STANDPLAATS`:
+
+<img width="1383" alt="Username, password en standplaats instellen als Github Actions secrets" src="https://github.com/user-attachments/assets/1b04e252-18f6-4679-9194-e198f1eaff4d">
 
 ## CO2 rapportageplicht
 Elke werkgever met meer dan 100 werknemers is verplicht om een CO2 rapportage te maken.
